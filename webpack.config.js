@@ -1,10 +1,10 @@
 var path = require('path')
 var webpack = require('webpack')
-const bundleOutputDir = './wwwroot/dist'; ///////输出目录
+const bundleOutputDir = './wwwroot/dist'; 
 
 module.exports = {
  context: __dirname,
-  entry: { main: './ClientApp/index.js' },  ////////////vue.js程序根目录
+  entry: { main: './ClientApp/index.js' }, 
   module: {
     rules: [
       {
